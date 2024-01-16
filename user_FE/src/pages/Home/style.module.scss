@@ -1,0 +1,24 @@
+.container{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+
+  .homeContainer{
+    margin-top: 70px;
+    width:80%;
+    @media screen and(max-width: 992px) {
+      width:90%;
+    }
+    .carousel{
+      margin-bottom: 80px;
+    
+    }
+    .listArticle{
+      margin-top: 40px;
+    }
+    .pagination{
+      text-align: center;
+      margin:  24px 0 24px 0;
+    }
+  }
+}

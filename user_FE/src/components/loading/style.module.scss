@@ -1,0 +1,15 @@
+.loadingContainer{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-color: #f2f6fc80;
+    z-index: 100000;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    top: 0;
+    left: 0;
+    svg{
+        position: absolute;
+    }
+}

@@ -1,0 +1,39 @@
+.pageWrapper {
+  min-height: 100vh;
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+}
+.mainWrapper {
+  height: 100%;
+  flex: 1;
+}
+.pageContent {
+  flex: 1;
+  background: #fff;
+  background-color: transparent;
+  height: calc(100vh - 81px);
+  margin-top: 81px;
+  overflow: auto;
+
+  @media screen and (max-width: 600px) {
+    height: 100vh;
+    margin-top: 0px;
+  }
+  &::-webkit-scrollbar {
+    width: 6px;
+    background-color: #c4c4c4;
+    border-radius: 210px;
+    margin: 10px 0px;
+  }
+
+  /* Track */
+  &::-webkit-scrollbar-track {
+    border-radius: 10px;
+  }
+
+  /* Handle */
+  &::-webkit-scrollbar-thumb {
+    background: #607027;
+    border-radius: 210px;
+  }
+}

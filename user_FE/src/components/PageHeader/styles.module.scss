@@ -1,0 +1,18 @@
+.headerWrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  // background-color: #ffffff75;
+  background-color: #fff;
+  border-bottom: 1px #ddd solid;
+  padding: 0px 20px;
+  position:fixed;
+  z-index: 10;
+  margin: 10px 0;
+  .logout {
+    cursor: pointer;
+    color: #1890ff;
+  }
+}
+
